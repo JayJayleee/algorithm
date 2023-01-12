@@ -1,5 +1,5 @@
 print("Hello World!")
 
-a, b = int(input())
-
-print(a+b)
+a, b = input().split()
+sum = int(a)+int(b)
+print(sum)
